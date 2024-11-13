@@ -6,7 +6,7 @@
 /*   By: eperperi <eperperi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 15:03:25 by eperperi          #+#    #+#             */
-/*   Updated: 2024/11/06 14:05:19 by eperperi         ###   ########.fr       */
+/*   Updated: 2024/11/13 16:07:09 by eperperi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,8 @@ class Zombie
 		Zombie(std::string name);
 		~Zombie();
 		
-		void announce();	
+		void announce();
+		void setName(std::string);
 };
 
 Zombie *zombieHorde(int n, std::string name);
