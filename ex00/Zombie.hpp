@@ -6,7 +6,7 @@
 /*   By: eperperi <eperperi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 13:11:47 by eperperi          #+#    #+#             */
-/*   Updated: 2024/11/06 14:04:05 by eperperi         ###   ########.fr       */
+/*   Updated: 2024/11/15 12:04:19 by eperperi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,7 @@
 #include <string>
 #include <new>
 
-#ifndef ZOMBIE_HPP
-#define ZOMBIE_HPP
+#pragma once
 
 class Zombie
 {
@@ -31,5 +30,3 @@ class Zombie
 
 Zombie *newZombie(std::string zombie);
 void randomChum(std::string name);
-
-#endif

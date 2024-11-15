@@ -6,11 +6,13 @@
 /*   By: eperperi <eperperi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 14:43:04 by eperperi          #+#    #+#             */
-/*   Updated: 2024/11/05 14:45:38 by eperperi         ###   ########.fr       */
+/*   Updated: 2024/11/15 12:04:42 by eperperi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "weapon.hpp"
+
+#pragma once
 
 class HumanB
 {

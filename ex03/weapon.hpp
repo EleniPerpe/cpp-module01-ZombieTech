@@ -6,14 +6,13 @@
 /*   By: eperperi <eperperi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 12:17:50 by eperperi          #+#    #+#             */
-/*   Updated: 2024/11/05 14:57:28 by eperperi         ###   ########.fr       */
+/*   Updated: 2024/11/15 12:05:04 by eperperi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 
-#ifndef WEAPON_HPP
-#define WEAPON_HPP
+#pragma once
 
 class Weapon
 {
@@ -25,7 +24,5 @@ public:
 	~Weapon();
 
 	void setType(std::string type);
-	const std::string &getType();
+	const std::string &getType() const;
 };
-
-#endif

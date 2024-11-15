@@ -6,15 +6,14 @@
 /*   By: eperperi <eperperi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 12:28:31 by eperperi          #+#    #+#             */
-/*   Updated: 2024/11/06 14:09:56 by eperperi         ###   ########.fr       */
+/*   Updated: 2024/11/15 12:04:37 by eperperi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include "weapon.hpp"
 
-#ifndef HUMANA_HPP
-#define HUMANA_HPP
+#pragma once
 
 class HumanA
 {
@@ -29,5 +28,3 @@ public:
 	void attack();
 		
 };
-
-#endif
